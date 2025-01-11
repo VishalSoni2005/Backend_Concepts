@@ -1,20 +1,122 @@
-[{"id":1,"first_name":"Ambrosio","email":"abamford0@seattletimes.com","gender":"Male"},
-{"id":2,"first_name":"Kathie","email":"kciccotto1@netvibes.com","gender":"Female"},
-{"id":3,"first_name":"Julian","email":"jmyford2@youtube.com","gender":"Male"},
-{"id":4,"first_name":"Lucas","email":"lbowdidge3@whitehouse.gov","gender":"Male"},
-{"id":5,"first_name":"Launce","email":"lskase4@eepurl.com","gender":"Male"},
-{"id":6,"first_name":"Berty","email":"bduffy5@aboutads.info","gender":"Male"},
-{"id":7,"first_name":"Claudio","email":"cbroxton6@mayoclinic.com","gender":"Male"},
-{"id":8,"first_name":"Keefer","email":"klawtey7@yahoo.com","gender":"Male"},
-{"id":9,"first_name":"Ari","email":"ainnot8@seattletimes.com","gender":"Male"},
-{"id":10,"first_name":"De","email":"dblincowe9@cpanel.net","gender":"Female"},
-{"id":11,"first_name":"Nanine","email":"npearcha@tiny.cc","gender":"Female"},
-{"id":12,"first_name":"April","email":"arainsburyb@google.cn","gender":"Agender"},
-{"id":13,"first_name":"Wini","email":"wjukesc@nyu.edu","gender":"Genderfluid"},
-{"id":14,"first_name":"Carmelina","email":"ccoakleyd@mashable.com","gender":"Female"},
-{"id":15,"first_name":"Livy","email":"lminigoe@wufoo.com","gender":"Female"},
-{"id":16,"first_name":"Odey","email":"obracchif@ted.com","gender":"Male"},
-{"id":17,"first_name":"Beale","email":"bhumbatchg@ebay.com","gender":"Male"},
-{"id":18,"first_name":"Giffie","email":"gbrehath@1688.com","gender":"Male"},
-{"id":19,"first_name":"Bartolemo","email":"bconlaundi@xrea.com","gender":"Male"},
-{"id":20,"first_name":"Arty","email":"agwatkinsj@zimbio.com","gender":"Male"}]
+[
+    {
+        "id": 1,
+        "first_name": "Ambrosio",
+        "email": "abamford0@seattletimes.com",
+        "gender": "Male"
+    },
+    {
+        "id": 2,
+        "first_name": "Kathie",
+        "email": "kciccotto1@netvibes.com",
+        "gender": "Female"
+    },
+    {
+        "id": 3,
+        "first_name": "Julian",
+        "email": "jmyford2@youtube.com",
+        "gender": "Male"
+    },
+    {
+        "id": 4,
+        "first_name": "Lucas",
+        "email": "lbowdidge3@whitehouse.gov",
+        "gender": "Male"
+    },
+    {
+        "id": 5,
+        "first_name": "Launce",
+        "email": "lskase4@eepurl.com",
+        "gender": "Male"
+    },
+    {
+        "id": 6,
+        "first_name": "Berty",
+        "email": "bduffy5@aboutads.info",
+        "gender": "Male"
+    },
+    {
+        "id": 7,
+        "first_name": "Claudio",
+        "email": "cbroxton6@mayoclinic.com",
+        "gender": "Male"
+    },
+    {
+        "id": 8,
+        "first_name": "Keefer",
+        "email": "klawtey7@yahoo.com",
+        "gender": "Male"
+    },
+    {
+        "id": 9,
+        "first_name": "Ari",
+        "email": "ainnot8@seattletimes.com",
+        "gender": "Male"
+    },
+    {
+        "id": 10,
+        "first_name": "De",
+        "email": "dblincowe9@cpanel.net",
+        "gender": "Female"
+    },
+    {
+        "id": 11,
+        "first_name": "Nanine",
+        "email": "npearcha@tiny.cc",
+        "gender": "Female"
+    },
+    {
+        "id": 12,
+        "first_name": "April",
+        "email": "arainsburyb@google.cn",
+        "gender": "Agender"
+    },
+    {
+        "id": 13,
+        "first_name": "Wini",
+        "email": "wjukesc@nyu.edu",
+        "gender": "Genderfluid"
+    },
+    {
+        "id": 14,
+        "first_name": "Carmelina",
+        "email": "ccoakleyd@mashable.com",
+        "gender": "Female"
+    },
+    {
+        "id": 15,
+        "first_name": "Livy",
+        "email": "lminigoe@wufoo.com",
+        "gender": "Female"
+    },
+    {
+        "id": 16,
+        "first_name": "Odey",
+        "email": "obracchif@ted.com",
+        "gender": "Male"
+    },
+    {
+        "id": 17,
+        "first_name": "Beale",
+        "email": "bhumbatchg@ebay.com",
+        "gender": "Male"
+    },
+    {
+        "id": 18,
+        "first_name": "Giffie",
+        "email": "gbrehath@1688.com",
+        "gender": "Male"
+    },
+    {
+        "id": 19,
+        "first_name": "Bartolemo",
+        "email": "bconlaundi@xrea.com",
+        "gender": "Male"
+    },
+    {
+        "id": 20,
+        "first_name": "Arty",
+        "email": "agwatkinsj@zimbio.com",
+        "gender": "Male"
+    }
+]
