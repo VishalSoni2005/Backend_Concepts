@@ -38,11 +38,11 @@ app.post('/api/users', (req, res) => {
   // console.log('body ', body);  // we will get json of data that we send in postman
 
   // users.push(body); // users database
-  users.push({...body, id: users.length + 1}); // users database
+  users.push({ ...body, id: users.length + 1 }); // users database
   fs.writeFile('./MOCK_DATA.json', JSON.stringify(users), (err, data) => {
     if (err) {
       console.log(err);
-    } 
+    }
   });
   return res.json({
     message: 'Sucessfully created user',
@@ -54,10 +54,6 @@ app.patch('/api/users/:id', (req, res) => {
   // editing user with id of user
 });
 
-//! Deleting user
-app.delete('/api/users/:id', (req, res) => {
-  // deleting user with id of user
-});
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
