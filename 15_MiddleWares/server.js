@@ -4,20 +4,20 @@ const fs = require('fs');
 const data = require('./MOCK_DATA.json');
 const PORT = process.env.PORT || 8000;
 
-
 //! Middleware
 app.use(express.urlencoded({ extended: false })); //? first middleware function will be called
 
-app.use( (req, res, next) => {)
+app.use((req, res, next) => {
+  //? second middleware function will be called
+  console.log('Inside Second Middleware');
+  next(); // to allow next middleware or function to be called
+});
 
-
-
-
-
-
-
-
-
+app.use((req, res, next) => {
+  console.log('Inside Third Middleware');
+  res.json({ message: 'Inside Third Middleware approved' });
+  next();
+});
 app.get('/', (req, res) => {
   console.log('Running....');
 
@@ -131,6 +131,7 @@ app.delete('/api/users/:id', (req, res) => {
     });
   });
 });
+
 
 app.listen(PORT, () => {
   console.log(`SERVER IS RUNNING AT ${PORT}`);
