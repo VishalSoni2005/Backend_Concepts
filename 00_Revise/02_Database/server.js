@@ -64,20 +64,6 @@ app.post('/api/users', async (req, res) => {
 
 app.get('/display', async (req, res) => {
   const allUsers = await userModel.find();
-
-  //   const display = `
-  //         <ol>
-  //             ${allUsers
-  //               .map(ele => {
-  //                 `<li>${ele.id}</li>`;
-  //                 `<li>${ele.email}</li>`;
-  //                 `<li>${ele.password}</li>`;
-  //               })
-  //               .join('')}
-
-  //         </ol>
-  //     `;
-
   const display = `
      <ol>
          ${allUsers
